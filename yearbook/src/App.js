@@ -1,14 +1,19 @@
-import React from 'react';
-import Book from './components/Book';
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Book from "./components/Book";
 import './App.css';
-import { BrowserRouter } from 'react-router-dom';
+import ScrollablePortfolio from "./components/ScrollablePortfolio";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Book />
-    </BrowserRouter>
-  ); // ✅ this closing parenthesis was missing
+    <Router>
+      <Routes>
+        <Route path="/" element={<Book />} />
+        <Route path="/scrollable" element={<ScrollablePortfolio />} />
+      </Routes>
+    </Router>
+  );
 }
+
 
 export default App;

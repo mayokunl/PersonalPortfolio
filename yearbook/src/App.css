@@ -165,4 +165,54 @@ html {
 .github-button:hover {
   background-color: #444c56;
 }
+.scrollable-link {
+  font-family: 'Courier New', cursive;
+  color: blue;
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  text-decoration: none; /* optional: removes underline */
+}
+
+.scrollable-link:hover {
+  color: rgb(0, 255, 30);
+}
+
+/* Fade in from bottom */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(70px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Zoom in */
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.page-animate-fade {
+  animation: fadeInUp 1s ease forwards;
+}
+
+.page-animate-zoom {
+  animation: zoomIn 1s ease forwards;
+}
+
+.page-animate-delay {
+  animation-delay: 0.5s;
+}
+
 
