@@ -1,0 +1,71 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  scroll-behavior: smooth;
+}
+
+.scroll-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.scroll-section {
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.section-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;               /* smaller gap */
+  margin-top: 1.5rem;      /* closer to intro */
+  flex-wrap: wrap;
+}
+.scroll-section intro {
+  color: black;
+}
+
+.info-box {
+  width: 400px;
+  height: 500px;           /* taller than wide */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  
+  
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease;
+}
+
+.info-box:hover {
+  transform: translateY(-5px);
+}
+
+.experience-box {
+  background-color: #095a37; /* Dark Green */
+}
+
+.projects-box {
+  background-color: #5187a4; /* Blue */
+}
+
+.about-box {
+  background-color: #D0E6B2; /* Matcha */
+  color: #333;
+}
+

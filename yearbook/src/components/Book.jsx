@@ -166,7 +166,7 @@ function Book() {
         <div className='Page'>
             <h2 className='page-title page-animate-fade'>Project #3:</h2>
             <div style={{height: '5vh'}}></div>
-            <h4 className="label page-animate-fade">Forecast Fit - AI Powered Outfit Planner</h4>
+            <h4 className="label page-animate-fade">StyleCast - AI Powered Outfit Planner</h4>
             <p className="description page-animate-fade">Team Member</p>
         
             <div style={{height: '2vh'}}></div>
