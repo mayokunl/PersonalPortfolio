@@ -31,7 +31,7 @@ function Book() {
 
         <div className="Page">
             <h2 className='page-title page-animate-fade'>About Me:</h2>
-            <div style={{height: '2vh'}}></div>
+            <div style={{height: '3vh'}}></div>
             <h4 className="label page-animate-fade">Name :</h4>
             <p className="description page-animate-fade">Oluwamayokun Lawal</p>
 
