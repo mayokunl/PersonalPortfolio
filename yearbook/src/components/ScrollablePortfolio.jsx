@@ -12,9 +12,9 @@ function ScrollablePortfolio() {
       const width = window.innerWidth;
 
       if (width <= 768) { 
-      setSpacerHeight(137); // Mobile
+      setSpacerHeight(160); // Mobile
     } else if (width > 768 && width < 850) { 
-      setSpacerHeight(137); // Small desktop
+      setSpacerHeight(160); // Small desktop
     }else { 
       setSpacerHeight(2); // Full desktop
     }

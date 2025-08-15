@@ -30,7 +30,7 @@ html, body {
 }
 
 .info-box {
-  width: 400px;
+  width: 350px;
   height: 500px;           /* taller than wide */
   display: flex;
   align-items: center;
