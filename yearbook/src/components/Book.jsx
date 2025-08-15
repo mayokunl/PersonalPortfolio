@@ -197,6 +197,7 @@ function Book() {
         <div className="page" style={{ background: 'transparent' }}>
           <div className="page-content cover">
             <img 
+              alt = "nuttindey"
               src="/assets/theend.png"  
               className="yearbook-logo page-animate-zoom"
             />
