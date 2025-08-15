@@ -20,9 +20,9 @@ function Header() {
 
       {isMobileMenuOpen && (
         <div className="mobile-menu open">
-          <NavLink to="/" end className={({ isActive }) => isActive ? 'active' : undefined} onClick={() => setIsMobileMenuOpen(false)}>Experience</NavLink>
-          <NavLink to="/Events" className={({ isActive }) => isActive ? 'active' : undefined} onClick={() => setIsMobileMenuOpen(false)}>Projects</NavLink>
-          <NavLink to="/About" className={({ isActive }) => isActive ? 'active' : undefined} onClick={() => setIsMobileMenuOpen(false)}>About Me</NavLink>
+          <NavLink to="/experience" end className={({ isActive }) => isActive ? 'active' : undefined} onClick={() => setIsMobileMenuOpen(false)}>Experience</NavLink>
+          <NavLink to="/projects" className={({ isActive }) => isActive ? 'active' : undefined} onClick={() => setIsMobileMenuOpen(false)}>Projects</NavLink>
+          <NavLink to="/about" className={({ isActive }) => isActive ? 'active' : undefined} onClick={() => setIsMobileMenuOpen(false)}>About Me</NavLink>
         </div>
       )}
     </header>
@@ -30,3 +30,4 @@ function Header() {
 }
 
 export default Header;
+
