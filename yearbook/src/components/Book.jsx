@@ -10,8 +10,8 @@ function Book() {
   return (
     <div className="book-container" > 
       <HTMLFlipBook 
-        width={400} 
-        height={500}
+        width={370} 
+        height={530}
         maxShadowOpacity={0.5}
         drawShadow={true}
         showCover={true}
