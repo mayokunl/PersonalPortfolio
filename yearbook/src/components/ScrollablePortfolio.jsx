@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Header from "./Header";
 import { Link } from "react-router-dom";
 import "./ScrollablePortfolio.css";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa6";
 
 function ScrollablePortfolio() {
   const [spacerHeight, setSpacerHeight] = useState(64); // default desktop

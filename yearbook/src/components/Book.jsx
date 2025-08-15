@@ -1,6 +1,6 @@
 import HTMLFlipBook from "react-pageflip";
 import { Link } from 'react-router-dom';
-import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa6';
 
 
 
