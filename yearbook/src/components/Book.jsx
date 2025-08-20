@@ -125,6 +125,12 @@ function Book() {
                 >
                 CODE BASE
             </button>
+            <button style={{marginLeft: 10}}
+                className="github-button page-animate-fade" 
+                onClick={() => window.open('https://hosting-website-gamma.vercel.app/', '_blank')}
+                >
+                Link
+            </button>
             
             <img 
                 src="/assets/SPICEBOYZCHROME.png" 
@@ -156,6 +162,9 @@ function Book() {
                 >
                 CODE BASE
             </button>
+
+
+            
             <img 
                 src="/assets/stocktracker.png" 
                 alt="Profile"
@@ -187,6 +196,14 @@ function Book() {
                 >
                 CODE BASE
             </button>
+
+             <button style={{marginLeft: 10}}
+                className="github-button page-animate-fade" 
+                onClick={() => window.open('https://weather-based-outfit-planner.onrender.com/', '_blank')}
+                >
+                Link
+            </button>
+            
             <img 
                 src="/assets/weatherlogo.png" 
                 alt="Profile"
