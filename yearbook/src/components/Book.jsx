@@ -223,6 +223,8 @@ function Book() {
         </div>
       </HTMLFlipBook>
 
+      <h3 style={{textAlign: "center"}}>Experience is best on Desktop</h3>
+
 
       <Link
             to="/scrollable"
